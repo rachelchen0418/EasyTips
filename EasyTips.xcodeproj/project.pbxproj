@@ -14,6 +14,7 @@
 		3DF0F8B421D69ED200041BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0F8B221D69ED200041BF0 /* LaunchScreen.storyboard */; };
 		3DF0F8BF21D69ED200041BF0 /* EasyTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0F8BE21D69ED200041BF0 /* EasyTipsTests.swift */; };
 		3DF0F8CA21D69ED200041BF0 /* EasyTipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0F8C921D69ED200041BF0 /* EasyTipsUITests.swift */; };
+		3DF0F8DA21D86B7E00041BF0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0F8D921D86B7E00041BF0 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3DF0F8C521D69ED200041BF0 /* EasyTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF0F8C921D69ED200041BF0 /* EasyTipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTipsUITests.swift; sourceTree = "<group>"; };
 		3DF0F8CB21D69ED200041BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF0F8D921D86B7E00041BF0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3DF0F8A921D69ED000041BF0 /* AppDelegate.swift */,
 				3DF0F8AB21D69ED000041BF0 /* ViewController.swift */,
+				3DF0F8D921D86B7E00041BF0 /* SettingViewController.swift */,
 				3DF0F8AD21D69ED000041BF0 /* Main.storyboard */,
 				3DF0F8B021D69ED200041BF0 /* Assets.xcassets */,
 				3DF0F8B221D69ED200041BF0 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				3DF0F8AC21D69ED000041BF0 /* ViewController.swift in Sources */,
 				3DF0F8AA21D69ED000041BF0 /* AppDelegate.swift in Sources */,
+				3DF0F8DA21D86B7E00041BF0 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
